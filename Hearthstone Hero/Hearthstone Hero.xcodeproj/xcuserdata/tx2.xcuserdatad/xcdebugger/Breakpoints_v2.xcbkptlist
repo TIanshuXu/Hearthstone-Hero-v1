@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hearthstone Hero/XMLHeroesParser.swift"
+            timestampString = "573517688.557024"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "XMLHeroesParser"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 4 of Hearthstone_Hero.XMLHeroesParser.parser(_: __C.NSXMLParser, didStartElement: Swift.String, namespaceURI: Swift.Optional&lt;Swift.String&gt;, qualifiedName: Swift.Optional&lt;Swift.String&gt;, attributes: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hearthstone Hero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tx2/Desktop/Hearthstone%20Hero/Hearthstone%20Hero/XMLHeroesParser.swift"
+                  timestampString = "573516578.3594559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hearthstone_Hero.XMLHeroesParser.parser(_: __C.NSXMLParser, didStartElement: Swift.String, namespaceURI: Swift.Optional&lt;Swift.String&gt;, qualifiedName: Swift.Optional&lt;Swift.String&gt;, attributes: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hearthstone Hero"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tx2/Desktop/Hearthstone%20Hero/Hearthstone%20Hero/XMLHeroesParser.swift"
+                  timestampString = "573516578.361293"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

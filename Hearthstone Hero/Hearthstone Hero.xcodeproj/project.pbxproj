@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8113FB4F222DB3F400E2C14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB4E222DB3F400E2C14F /* AppDelegate.swift */; };
+		8113FB54222DB3F400E2C14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8113FB52222DB3F400E2C14F /* Main.storyboard */; };
+		8113FB56222DB3FC00E2C14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8113FB55222DB3FC00E2C14F /* Assets.xcassets */; };
+		8113FB59222DB3FC00E2C14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8113FB57222DB3FC00E2C14F /* LaunchScreen.storyboard */; };
+		8113FB61222DB69B00E2C14F /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB60222DB69B00E2C14F /* HeroesTableViewController.swift */; };
+		8113FB63222DB72200E2C14F /* HeroInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB62222DB72200E2C14F /* HeroInfoViewController.swift */; };
+		8113FB65222DB75100E2C14F /* HeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB64222DB75100E2C14F /* HeroDetailsViewController.swift */; };
+		8113FB67222DB76700E2C14F /* HeroWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB66222DB76700E2C14F /* HeroWebViewController.swift */; };
+		8113FB69222DB78500E2C14F /* XMLHeroesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB68222DB78500E2C14F /* XMLHeroesParser.swift */; };
+		8113FB6B222DB79300E2C14F /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB6A222DB79300E2C14F /* Hero.swift */; };
+		8113FB6D222DB7A500E2C14F /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113FB6C222DB7A500E2C14F /* Heroes.swift */; };
+		8113FB6F222DC30B00E2C14F /* heroes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8113FB6E222DC30B00E2C14F /* heroes.xml */; };
+		B873681F222ECEE900AC4A22 /* Heroes_Profile in Resources */ = {isa = PBXBuildFile; fileRef = B873681E222ECEE900AC4A22 /* Heroes_Profile */; };
+		B8A5077D223010FF004CFB82 /* Classes_Icon in Resources */ = {isa = PBXBuildFile; fileRef = B8A5077C223010FE004CFB82 /* Classes_Icon */; };
+		B8A5077F22301BEF004CFB82 /* Hero_Power in Resources */ = {isa = PBXBuildFile; fileRef = B8A5077E22301BEF004CFB82 /* Hero_Power */; };
+		B8CD40552235B4760032D2D8 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD40542235B4760032D2D8 /* GalleryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8113FB4B222DB3F400E2C14F /* Hearthstone Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hearthstone Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8113FB4E222DB3F400E2C14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8113FB53222DB3F400E2C14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8113FB55222DB3FC00E2C14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8113FB58222DB3FC00E2C14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8113FB5A222DB3FC00E2C14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8113FB60222DB69B00E2C14F /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
+		8113FB62222DB72200E2C14F /* HeroInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInfoViewController.swift; sourceTree = "<group>"; };
+		8113FB64222DB75100E2C14F /* HeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewController.swift; sourceTree = "<group>"; };
+		8113FB66222DB76700E2C14F /* HeroWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWebViewController.swift; sourceTree = "<group>"; };
+		8113FB68222DB78500E2C14F /* XMLHeroesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLHeroesParser.swift; sourceTree = "<group>"; };
+		8113FB6A222DB79300E2C14F /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		8113FB6C222DB7A500E2C14F /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		8113FB6E222DC30B00E2C14F /* heroes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = heroes.xml; sourceTree = "<group>"; };
+		B873681E222ECEE900AC4A22 /* Heroes_Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Heroes_Profile; sourceTree = "<group>"; };
+		B8A5077C223010FE004CFB82 /* Classes_Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes_Icon; sourceTree = "<group>"; };
+		B8A5077E22301BEF004CFB82 /* Hero_Power */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Hero_Power; sourceTree = "<group>"; };
+		B8CD40542235B4760032D2D8 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8113FB48222DB3F400E2C14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8113FB42222DB3F400E2C14F = {
+			isa = PBXGroup;
+			children = (
+				8113FB4D222DB3F400E2C14F /* Hearthstone Hero */,
+				8113FB4C222DB3F400E2C14F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8113FB4C222DB3F400E2C14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8113FB4B222DB3F400E2C14F /* Hearthstone Hero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8113FB4D222DB3F400E2C14F /* Hearthstone Hero */ = {
+			isa = PBXGroup;
+			children = (
+				8113FB4E222DB3F400E2C14F /* AppDelegate.swift */,
+				8113FB52222DB3F400E2C14F /* Main.storyboard */,
+				8113FB60222DB69B00E2C14F /* HeroesTableViewController.swift */,
+				8113FB62222DB72200E2C14F /* HeroInfoViewController.swift */,
+				B8CD40542235B4760032D2D8 /* GalleryViewController.swift */,
+				8113FB64222DB75100E2C14F /* HeroDetailsViewController.swift */,
+				8113FB66222DB76700E2C14F /* HeroWebViewController.swift */,
+				8113FB68222DB78500E2C14F /* XMLHeroesParser.swift */,
+				8113FB6A222DB79300E2C14F /* Hero.swift */,
+				8113FB6C222DB7A500E2C14F /* Heroes.swift */,
+				8113FB6E222DC30B00E2C14F /* heroes.xml */,
+				B8A5077E22301BEF004CFB82 /* Hero_Power */,
+				B8A5077C223010FE004CFB82 /* Classes_Icon */,
+				B873681E222ECEE900AC4A22 /* Heroes_Profile */,
+				8113FB55222DB3FC00E2C14F /* Assets.xcassets */,
+				8113FB57222DB3FC00E2C14F /* LaunchScreen.storyboard */,
+				8113FB5A222DB3FC00E2C14F /* Info.plist */,
+			);
+			path = "Hearthstone Hero";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8113FB4A222DB3F400E2C14F /* Hearthstone Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8113FB5D222DB3FC00E2C14F /* Build configuration list for PBXNativeTarget "Hearthstone Hero" */;
+			buildPhases = (
+				8113FB47222DB3F400E2C14F /* Sources */,
+				8113FB48222DB3F400E2C14F /* Frameworks */,
+				8113FB49222DB3F400E2C14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hearthstone Hero";
+			productName = "Hearthstone Hero";
+			productReference = 8113FB4B222DB3F400E2C14F /* Hearthstone Hero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8113FB43222DB3F400E2C14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tianshu Xu";
+				TargetAttributes = {
+					8113FB4A222DB3F400E2C14F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8113FB46222DB3F400E2C14F /* Build configuration list for PBXProject "Hearthstone Hero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8113FB42222DB3F400E2C14F;
+			productRefGroup = 8113FB4C222DB3F400E2C14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8113FB4A222DB3F400E2C14F /* Hearthstone Hero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8113FB49222DB3F400E2C14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A5077F22301BEF004CFB82 /* Hero_Power in Resources */,
+				8113FB59222DB3FC00E2C14F /* LaunchScreen.storyboard in Resources */,
+				8113FB56222DB3FC00E2C14F /* Assets.xcassets in Resources */,
+				B8A5077D223010FF004CFB82 /* Classes_Icon in Resources */,
+				B873681F222ECEE900AC4A22 /* Heroes_Profile in Resources */,
+				8113FB54222DB3F400E2C14F /* Main.storyboard in Resources */,
+				8113FB6F222DC30B00E2C14F /* heroes.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8113FB47222DB3F400E2C14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8113FB4F222DB3F400E2C14F /* AppDelegate.swift in Sources */,
+				8113FB65222DB75100E2C14F /* HeroDetailsViewController.swift in Sources */,
+				8113FB61222DB69B00E2C14F /* HeroesTableViewController.swift in Sources */,
+				8113FB67222DB76700E2C14F /* HeroWebViewController.swift in Sources */,
+				8113FB6B222DB79300E2C14F /* Hero.swift in Sources */,
+				8113FB6D222DB7A500E2C14F /* Heroes.swift in Sources */,
+				B8CD40552235B4760032D2D8 /* GalleryViewController.swift in Sources */,
+				8113FB69222DB78500E2C14F /* XMLHeroesParser.swift in Sources */,
+				8113FB63222DB72200E2C14F /* HeroInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8113FB52222DB3F400E2C14F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8113FB53222DB3F400E2C14F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8113FB57222DB3FC00E2C14F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8113FB58222DB3FC00E2C14F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8113FB5B222DB3FC00E2C14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8113FB5C222DB3FC00E2C14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8113FB5E222DB3FC00E2C14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hearthstone Hero/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianshu-Xu.Hearthstone-Hero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8113FB5F222DB3FC00E2C14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hearthstone Hero/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianshu-Xu.Hearthstone-Hero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8113FB46222DB3F400E2C14F /* Build configuration list for PBXProject "Hearthstone Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8113FB5B222DB3FC00E2C14F /* Debug */,
+				8113FB5C222DB3FC00E2C14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8113FB5D222DB3FC00E2C14F /* Build configuration list for PBXNativeTarget "Hearthstone Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8113FB5E222DB3FC00E2C14F /* Debug */,
+				8113FB5F222DB3FC00E2C14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8113FB43222DB3F400E2C14F /* Project object */;
+}
