@@ -1,4 +1,4 @@
-# Hearthstone Hero v1
+## Hearthstone Hero v1
 This is my first Xcode assignment.
 
 *Compatible IPhone device: IPhone 8*
